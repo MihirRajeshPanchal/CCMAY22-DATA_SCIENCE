@@ -38,11 +38,6 @@ rfm["RecencyScore"] = pd.qcut(rfm['Recency'], 5, labels=[5, 4, 3, 2, 1])
 rfm["FrequencyScore"] = pd.qcut(rfm['Frequency'], 5, labels=[1, 2, 3, 4, 5])
 rfm["MonetaryScore"] = pd.qcut(rfm['Monetary'], 5, labels=[1, 2, 3, 4, 5])
 
-rfm["RFM_SCORE"] = (rfm['RecencyScore'].astype(str) +
-                    rfm['FrequencyScore'].astype(str) +
-                    rfm['MonetaryScore'].astype(str))
-
-
 # 5.Naming & Analysing RFM Segments
 seg_map = {
     r'[1-2][1-2]': 'Hibernating',
@@ -60,6 +55,7 @@ seg_map = {
 rfm['Segment'] = rfm['RecencyScore'].astype(str) + rfm['FrequencyScore'].astype(str)
 rfm['Segment'] = rfm['Segment'].replace(seg_map, regex=True)
 
-# rfm[["Segment", "Recency", "Frequency", "Monetary"]].groupby("Segment").agg({"mean", "count"})
-
-print(rfm[["Segment", "Recency", "Frequency", "Monetary"]].groupby("Segment").agg({"sum","mean","min","max"}))
+# print(rfm[["Segment", "Recency", "Frequency", "Monetary"]].groupby("Segment").agg({"sum","mean","min","max"}))
+print(rfm[["Segment", "Recency"]].groupby("Segment").agg({"sum","mean","min","max"}))
+print(rfm[["Segment", "Frequency"]].groupby("Segment").agg({"sum","mean","min","max"}))
+print(rfm[["Segment", "Monetary"]].groupby("Segment").agg({"sum","mean","min","max"}))
