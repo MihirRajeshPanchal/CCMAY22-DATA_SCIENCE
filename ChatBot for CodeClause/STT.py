@@ -1,8 +1,5 @@
-from xmlrpc.client import MAXINT
 import speech_recognition as sr
 import pyaudio 
-from TTS import *
-import pywhatkit as pwt
 from speech_recognition import *
 
 def stt():
