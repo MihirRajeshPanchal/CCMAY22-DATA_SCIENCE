@@ -1,0 +1,46 @@
+localized title
+cast
+genres
+runtimes
+countries
+country codes
+language codes
+color info
+aspect ratio
+sound mix
+certificates
+original air date
+rating
+votes
+cover url
+imdbID
+plot outline
+languages
+title
+year
+kind
+original title
+director
+writer
+composer
+cinematographer
+editor
+production design
+costume designer
+make up
+production manager
+assistant director
+sound crew
+special effects
+camera and electrical department
+music department
+script department
+akas
+production companies
+plot
+canonical title
+long imdb title
+long imdb canonical title
+smart canonical title
+smart long imdb canonical title
+full-size cover url
