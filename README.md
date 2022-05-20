@@ -7,3 +7,8 @@ run CSP.py file by typing the command py CSP.py in the pwd
 # Project 3:Movie Analysis
 run PlotGraph.py file by typing the command py PlotGraph.py in the pwd
 
+# Install Requirements.txt by Command
+pip install -r requirements.txt
+
+# Python Version
+Python 3.10.2
