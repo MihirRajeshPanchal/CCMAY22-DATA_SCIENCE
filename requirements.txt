@@ -42,7 +42,7 @@ keras-nightly==2.10.0.dev2022042507
 Keras-Preprocessing==1.1.2
 kiwisolver==1.4.2
 libclang14.0.1
-lxml==4.8.0
+lxml==4.9.1
 Markdown3.3.6
 MarkupSafe==2.1.1
 matplotlib==3.5.1
