@@ -17,7 +17,7 @@ decorator4.4.2
 Django==4.1.7
 docopt==0.6.2
 et-xmlfile==1.1.0
-Flask==2.1.1
+Flask==2.3.2
 flatbuffers==1.12
 fonttools==4.33.2
 gast==0.4.0
