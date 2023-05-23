@@ -96,7 +96,7 @@ pytz-deprecation-shim==0.1.0.post0
 pywhatkit==5.3
 pywin32==303
 regex==2022.4.24
-requests==2.27.1
+requests==2.31.0
 requests-oauthlib==1.3.1
 rsa==4.8
 setuptools==65.5.1
