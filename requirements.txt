@@ -120,7 +120,7 @@ tqdm==4.66.3
 typing_extensions==4.2.0
 tzdata==2022.1
 tzlocal==4.2
-urllib3==1.26.18
+urllib3==1.26.19
 Werkzeug2.1.1
 wheel==0.38.1
 wikipedia==1.4.0
