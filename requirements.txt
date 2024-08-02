@@ -37,7 +37,7 @@ itsdangerous==2.0.1
 Jinja2==3.1.4
 joblib==1.2.0
 Js2Py==0.71
-keras==2.8.0
+keras==2.13.1
 keras-nightly==2.10.0.dev2022042507
 Keras-Preprocessing==1.1.2
 kiwisolver==1.4.2
